@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp">
+
+        <TextView
+            style="@style/tv_rubik_18_700_green_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/Quick_Clean"
+            tools:ignore="Suspicious0dp" />
+
+        <LinearLayout
+            android:id="@+id/lnl_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_blue_6_rd_12"
+            android:orientation="horizontal"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/crown" />
+
+            <TextView
+                style="@style/tv_rubik_11_500_green_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Premium" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imv_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/setting_icon" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/clean_main" />
+
+    <TextView
+        style="@style/tv_rubik_14_600_green_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="123.4 KB junk found " />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/lnl_boot_phone"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_blue_6_rd_12"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/boot_icon" />
+
+            <TextView
+                style="@style/tv_rubik_11_500_green_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/Phone_Booster" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnl_cpu_cooler"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_blue_6_rd_12"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/cool_icon" />
+
+            <TextView
+                style="@style/tv_rubik_11_500_green_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/CPU_Cooler" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnl_battery_saver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_blue_6_rd_12"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/battery_icon" />
+
+            <TextView
+                style="@style/tv_rubik_11_500_green_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/Power_Saver" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_deep_clean"
+        style="@style/tv_rubik_16_600_green_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="21dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bg_blue_04_rd_20"
+        android:gravity="center"
+        android:paddingVertical="17.5dp"
+        android:text="DEEP CLEAN" />
+
+<!--    <vn.ilightning.myapplication.View.SettingView-->
+<!--        android:id="@+id/v_setting"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+</LinearLayout>

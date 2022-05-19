@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.MyApplication.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_widget_rd_16"
+    android:theme="@style/Theme.MyApplication.AppWidgetContainer">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boot_widget_icon" />
+        <TextView
+            android:layout_marginLeft="23dp"
+            android:id="@+id/tv_ram_uesed"
+            style="@style/tv_rubik_16_500_green_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="60% RAM"
+            android:layout_gravity="center"
+            />
+
+
+    <TextView
+        android:id="@+id/tv_boot"
+        style="@style/tv_rubik_10_600_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_blue_04_rd_20"
+        android:paddingHorizontal="26dp"
+        android:paddingVertical="8dp"
+        android:text="SPEED UP" />
+</LinearLayout>

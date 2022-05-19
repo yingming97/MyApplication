@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="tv_rubik_32_700_green_1">
+        <item name="android:textSize">32dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">700</item>
+    </style>
+
+    <style name="tv_rubik_30_700_green_1">
+        <item name="android:textSize">30dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">700</item>
+    </style>
+    <style name="tv_rubik_18_700_green_1">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">700</item>
+    </style>
+    <style name="tv_rubik_18_600_green_1">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="tv_rubik_16_600_green_1">
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="tv_rubik_16_500_green_1">
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+    </style>
+
+    <style name="tv_rubik_14_400_green_1">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+
+    <style name="tv_rubik_12_400_green_1">
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+
+    <style name="tv_rubik_11_500_green_1">
+        <item name="android:textSize">11dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+    </style>
+
+    <style name="tv_rubik_11_400_green_1">
+        <item name="android:textSize">11dp</item>
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+
+    <style name="tv_rubik_18_600_black">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="tv_rubik_16_600_black">
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="tv_rubik_14_400_black">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+
+    <style name="tv_rubik_13_500_black">
+        <item name="android:textSize">13dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+    </style>
+
+    <style name="tv_rubik_13_400_black">
+        <item name="android:textSize">13dp</item>
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+
+    <style name="tv_rubik_12_400_black">
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+
+
+    <style name="tv_rubik_14_600_green_2">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="tv_rubik_13_500_green_2">
+        <item name="android:textSize">13dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+    </style>
+
+    <style name="tv_rubik_16_500_green_3">
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_3</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+    </style>
+
+    <style name="tv_rubik_12_500_white">
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+    </style>
+
+    <style name="tv_rubik_12_400_white">
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+
+    <style name="tv_rubik_10_600_white">
+        <item name="android:textSize">10dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="tv_rubik_18_600_blue_4">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/blue_04</item>x
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="tv_rubik_14_500_blue_4">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/blue_04</item>x
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+    </style>
+    <style name="tv_rubik_14_400_blue_4">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textColor">@color/blue_04</item>x
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+    <style name="tv_rubik_12_400_blue_4">
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textColor">@color/blue_04</item>x
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+
+</resources>

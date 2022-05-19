@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tv_rubik_18_600_green_1">
+        <item name="android:textSize">18dp</item>
+        <item name="fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/green_1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+</resources>

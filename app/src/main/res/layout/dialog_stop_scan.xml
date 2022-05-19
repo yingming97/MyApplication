@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="238.79dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_white_rd_20"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/stop_scan" />
+
+    <TextView
+        style="@style/tv_rubik_16_600_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:text="@string/Stop_Scanning" />
+
+    <TextView
+        style="@style/tv_rubik_12_400_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/RUS" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bg_white_cn_blue_04_rd_10"
+            android:paddingHorizontal="24.5dp"
+            android:paddingVertical="11.5dp"
+            android:text="@string/Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_04"
+            android:textFontWeight="500"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_stop_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_blue_04_rd_20"
+            android:paddingHorizontal="13.5dp"
+            android:paddingVertical="11.5dp"
+            android:text="@string/Stop"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

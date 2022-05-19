@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="100dp"
+    android:background="@drawable/bg_white_rd_20"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/change_language" />
+
+    <TextView
+        android:id="@+id/txv_dialog_change_language__title"
+        style="@style/tv_rubik_16_600_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/Languages"
+        android:textColor="@color/b2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="23dp"
+        android:layout_marginTop="35dp"
+        android:background="#F1F6FF" />
+
+    <TextView
+        style="@style/tv_rubik_14_400_blue_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="English" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="23dp"
+        android:layout_marginBottom="35dp"
+        android:background="#F1F6FF" />
+
+
+</LinearLayout>
+
