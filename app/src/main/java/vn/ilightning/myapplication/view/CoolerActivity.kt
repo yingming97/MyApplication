@@ -15,23 +15,14 @@ class CoolerActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.view_cpu_cooler)
         imv_back.setOnClickListener(this)
-        Handler().postDelayed({ startActivity(Intent(this, CpuFinishActivity1::class.java)) }, 2000)
+        Handler().postDelayed({ startActivity(Intent(this, CoolingDownActivity::class.java)) }, 3000)
     }
 
-     fun showDialog() {
-        val dialog = Dialog(this)
-        dialog.setContentView(R.layout.dialog_stop_scan)
-        dialog.window!!.setBackgroundDrawableResource(R.drawable.bg_white_rd_20)
-        dialog.tv_cancel.setOnClickListener { dialog.dismiss() }
-        dialog.tv_stop_scan.setOnClickListener {
-           finish()
-        }
-        dialog.show()
-    }
+
 
     override fun onClick(view: View?) {
         when (view) {
-            imv_back -> showDialog()
+            imv_back -> StopScanDialog(this).showDialog()
         }
     }
 }
