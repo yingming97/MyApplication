@@ -11,6 +11,7 @@ class BatteryFinishActivity2 : AppCompatActivity(),View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.view_battery_finish_2)
+        imv_back.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {

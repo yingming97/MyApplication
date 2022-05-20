@@ -57,7 +57,7 @@
             android:parentActivityName=".view.MainActivity" />
 
         <receiver
-            android:name=".WidgetCleanUp"
+            android:name=".widget.WidgetCleanUp"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -68,7 +68,7 @@
                 android:resource="@xml/widget_clean_up_info" />
         </receiver>
         <receiver
-            android:name=".WidegetCooler"
+            android:name=".widget.WidgetCooler"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -79,7 +79,7 @@
                 android:resource="@xml/wideget_cooler_info" />
         </receiver>
         <receiver
-            android:name=".WidgetBatteryOptimize"
+            android:name=".widget.WidgetBatteryOptimize"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -90,7 +90,7 @@
                 android:resource="@xml/widget_battery_optimize_info" />
         </receiver>
         <receiver
-            android:name=".WidgetSpeedUp"
+            android:name=".widget.WidgetSpeedUp"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -101,7 +101,7 @@
                 android:resource="@xml/widget_speed_up_info" />
         </receiver>
         <receiver
-            android:name=".Widget_Full"
+            android:name=".widget.Widget_Full"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

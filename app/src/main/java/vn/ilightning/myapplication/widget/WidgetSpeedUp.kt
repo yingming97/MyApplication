@@ -1,14 +1,15 @@
-package vn.ilightning.myapplication
+package vn.ilightning.myapplication.widget
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.widget.RemoteViews
+import vn.ilightning.myapplication.R
 
 /**
  * Implementation of App Widget functionality.
  */
-class WidgetBatteryOptimize : AppWidgetProvider() {
+class WidgetSpeedUp : AppWidgetProvider() {
     override fun onUpdate(
         context: Context,
         appWidgetManager: AppWidgetManager,
@@ -16,7 +17,7 @@ class WidgetBatteryOptimize : AppWidgetProvider() {
     ) {
         // There may be multiple widgets active, so update all of them
         for (appWidgetId in appWidgetIds) {
-            updateAppWidget3(context, appWidgetManager, appWidgetId)
+            updateAppWidget2(context, appWidgetManager, appWidgetId)
         }
     }
 
@@ -29,14 +30,14 @@ class WidgetBatteryOptimize : AppWidgetProvider() {
     }
 }
 
-internal fun updateAppWidget3(
+internal fun updateAppWidget2(
     context: Context,
     appWidgetManager: AppWidgetManager,
     appWidgetId: Int
 ) {
     val widgetText = context.getString(R.string.appwidget_text)
     // Construct the RemoteViews object
-    val views = RemoteViews(context.packageName, R.layout.widget_battery_optimize)
+    val views = RemoteViews(context.packageName, R.layout.widget_speed_up)
 
     // Instruct the widget manager to update the widget
     appWidgetManager.updateAppWidget(appWidgetId, views)

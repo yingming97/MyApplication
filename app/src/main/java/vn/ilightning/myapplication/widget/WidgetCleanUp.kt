@@ -1,9 +1,10 @@
-package vn.ilightning.myapplication
+package vn.ilightning.myapplication.widget
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.widget.RemoteViews
+import vn.ilightning.myapplication.R
 
 /**
  * Implementation of App Widget functionality.
