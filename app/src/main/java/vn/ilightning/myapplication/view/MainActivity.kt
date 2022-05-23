@@ -1,6 +1,5 @@
 package vn.ilightning.myapplication.view
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -8,6 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import vn.ilightning.myapplication.R
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -18,9 +18,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View?) {
         when (view) {
-            imv_setting -> startActivity(Intent(this, SettingActivity::class.java))
-            lnl_cpu_cooler -> startActivity(Intent(this, CoolerActivity::class.java))
-            lnl_battery_saver -> startActivity(Intent(this, BatterySaverActivity::class.java))
+            imv_setting -> ctv_main_activity_setting_view.openView()
+            lnl_cpu_cooler -> ctv_main_activity_cooler_view.openView()
+            lnl_battery_saver -> ctv_main_activity_battery_saver_view.openView()
         }
     }
 }

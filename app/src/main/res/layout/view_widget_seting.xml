@@ -1,235 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="vertical">
-
+    android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imv_back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="29dp"
-            android:paddingVertical="25dp"
-            android:src="@drawable/back_arrow_black" />
-
-        <TextView
-            style="@style/tv_rubik_18_600_black"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="@string/Widget_Tutorial" />
-
-        <ImageView
-            android:id="@+id/imv_setting_help"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="24dp"
-            android:src="@drawable/help_icon" />
-    </LinearLayout>
-
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="24dp"
-            android:orientation="vertical">
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="29dp"
+                android:paddingVertical="25dp"
+                android:src="@drawable/back_arrow_black" />
 
             <TextView
-                style="@style/tv_rubik_13_400_black"
-                android:layout_width="wrap_content"
+                style="@style/tv_rubik_18_600_black"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/Add_widget_setting" />
-
-            <TextView
-                style="@style/tv_rubik_13_500_black"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="21dp"
-                android:text="@string/Widgets_4x2" />
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/Widget_Tutorial" />
 
             <ImageView
+                android:id="@+id/imv_setting_help"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/add_widget_4x2" />
-
-            <LinearLayout
-                android:id="@+id/lnl_add_widget_4x2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="76dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/bg_white_cn_blue_04_rd_20"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:paddingVertical="8dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/circle_add" />
-
-                <TextView
-                    style="@style/tv_rubik_14_500_blue_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/add_widget" />
-
-            </LinearLayout>
-
-            <TextView
-                style="@style/tv_rubik_13_500_black"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="21dp"
-                android:text="@string/Widgets_4x1" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/add_widget_clean" />
-
-            <LinearLayout
-                android:id="@+id/lnl_add_widget_4x1_clean"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="76dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/bg_white_cn_blue_04_rd_20"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:paddingVertical="8dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/circle_add" />
-
-                <TextView
-                    style="@style/tv_rubik_14_500_blue_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/add_widget" />
-
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/add_widget_speed_up" />
-
-            <LinearLayout
-                android:id="@+id/lnl_add_widget_4x1_speed_up"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="76dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/bg_white_cn_blue_04_rd_20"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:paddingVertical="8dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/circle_add" />
-
-                <TextView
-                    style="@style/tv_rubik_14_500_blue_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/add_widget" />
-
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/add_widget_optimize" />
-
-            <LinearLayout
-                android:id="@+id/lnl_add_widget_4x1_optimize"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="76dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/bg_white_cn_blue_04_rd_20"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:paddingVertical="8dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/circle_add" />
-
-                <TextView
-                    style="@style/tv_rubik_14_500_blue_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/add_widget" />
-
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="18dp"
-                android:src="@drawable/add_widget_cooler" />
-
-            <LinearLayout
-                android:id="@+id/lnl_add_widget_4x1_cooler"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="76dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/bg_white_cn_blue_04_rd_20"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:paddingVertical="8dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/circle_add" />
-
-                <TextView
-                    style="@style/tv_rubik_14_500_blue_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/add_widget" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/tv_ho_to_add_widget"
-                style="@style/tv_rubik_12_400_black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="40dp"
-                android:gravity="center"
                 android:padding="24dp"
-                android:text="@string/how_to_add_widget" />
-
+                android:src="@drawable/help_icon" />
         </LinearLayout>
 
-    </androidx.core.widget.NestedScrollView>
-</LinearLayout>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/tv_rubik_13_400_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Add_widget_setting" />
+
+                <TextView
+                    style="@style/tv_rubik_13_500_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="@string/Widgets_4x2" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/add_widget_4x2" />
+
+                <LinearLayout
+                    android:id="@+id/lnl_add_widget_4x2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="76dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_white_cn_blue_04_rd_20"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_add" />
+
+                    <TextView
+                        style="@style/tv_rubik_14_500_blue_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_widget" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/tv_rubik_13_500_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="@string/Widgets_4x1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/add_widget_clean" />
+
+                <LinearLayout
+                    android:id="@+id/lnl_add_widget_4x1_clean"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="76dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_white_cn_blue_04_rd_20"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_add" />
+
+                    <TextView
+                        style="@style/tv_rubik_14_500_blue_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_widget" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/add_widget_speed_up" />
+
+                <LinearLayout
+                    android:id="@+id/lnl_add_widget_4x1_speed_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="76dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_white_cn_blue_04_rd_20"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_add" />
+
+                    <TextView
+                        style="@style/tv_rubik_14_500_blue_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_widget" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/add_widget_optimize" />
+
+                <LinearLayout
+                    android:id="@+id/lnl_add_widget_4x1_optimize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="76dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_white_cn_blue_04_rd_20"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_add" />
+
+                    <TextView
+                        style="@style/tv_rubik_14_500_blue_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_widget" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/add_widget_cooler" />
+
+                <LinearLayout
+                    android:id="@+id/lnl_add_widget_4x1_cooler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="76dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_white_cn_blue_04_rd_20"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circle_add" />
+
+                    <TextView
+                        style="@style/tv_rubik_14_500_blue_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_widget" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_how_to_add_widget"
+                    style="@style/tv_rubik_12_400_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="40dp"
+                    android:gravity="center"
+                    android:padding="24dp"
+                    android:text="@string/how_to_add_widget" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <vn.ilightning.myapplication.view.WidgetSettingTutorial
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/ctv_widget_setting_tutorial_view"
+        />
+</RelativeLayout>

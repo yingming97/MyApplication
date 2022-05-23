@@ -1,442 +1,449 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gradient"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imv_back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:src="@drawable/back_arrow_black" />
-
-        <TextView
-            style="@style/tv_rubik_18_600_black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingVertical="15dp"
-            android:text="@string/Settings" />
-
-    </LinearLayout>
-
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="24dp"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:paddingBottom="95dp">
+            android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imv_back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/bg_upgrade_premium"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:padding="15dp"
+                android:src="@drawable/back_arrow_black" />
 
             <TextView
-                android:id="@+id/textView2"
-                style="@style/tv_rubik_18_600_green_1"
+                style="@style/tv_rubik_18_600_black"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="24dp"
-                android:text="@string/Upgrade_Premium"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-                app:layout_constraintEnd_toEndOf="@+id/imageView3"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/imageView3"
-                app:layout_constraintTop_toTopOf="@+id/imageView3"
-                app:layout_constraintVertical_bias="0.116" />
+                android:paddingVertical="15dp"
+                android:text="@string/Settings" />
 
-            <TextView
-                android:id="@+id/textView3"
-                style="@style/tv_rubik_12_400_green_1"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:text="@string/Subscribe_to_enjoy"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/imageView3"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/imageView3"
-                app:layout_constraintTop_toBottomOf="@+id/textView2"
-                app:layout_constraintVertical_bias="0.034" />
+        </LinearLayout>
 
-            <TextView
-                android:id="@+id/tv_get_now"
-                style="@style/tv_rubik_10_600_white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:background="@drawable/bg_blue_04_rd_20"
-                android:paddingHorizontal="21dp"
-                android:paddingVertical="8dp"
-                android:text="@string/Get_Now"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-                app:layout_constraintEnd_toEndOf="@+id/imageView3"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/imageView3"
-                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/textView4"
-                style="@style/tv_rubik_16_600_black"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:text="@string/About_this_App"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.101"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-            <LinearLayout
-                android:id="@+id/linearLayout4"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bg_white_rd_10"
+                android:layout_marginHorizontal="24dp"
+                android:gravity="center"
                 android:orientation="vertical"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4">
+                android:paddingBottom="95dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bg_upgrade_premium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/tv_rubik_18_600_green_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="24dp"
+                    android:text="@string/Upgrade_Premium"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="@+id/imageView3"
+                    app:layout_constraintVertical_bias="0.116" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/tv_rubik_12_400_green_1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="@string/Subscribe_to_enjoy"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageView3"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2"
+                    app:layout_constraintVertical_bias="0.034" />
+
+                <TextView
+                    android:id="@+id/tv_get_now"
+                    style="@style/tv_rubik_10_600_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:background="@drawable/bg_blue_04_rd_20"
+                    android:paddingHorizontal="21dp"
+                    android:paddingVertical="8dp"
+                    android:text="@string/Get_Now"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageView3"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/tv_rubik_16_600_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/About_this_App"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.101"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
                 <LinearLayout
-                    android:id="@+id/lnl_change_language"
+                    android:id="@+id/linearLayout4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="30dp">
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_white_rd_10"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4">
 
-                    <ImageView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/lnl_change_language"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/change_languge_icon" />
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="30dp">
 
-                    <TextView
-                        style="@style/tv_rubik_14_400_black"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:text="@string/Languages" />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/change_languge_icon" />
 
-                    <TextView
-                        style="@style/tv_rubik_12_400_blue_4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="29dp"
-                        android:text="English" />
+                        <TextView
+                            style="@style/tv_rubik_14_400_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:text="@string/Languages" />
 
-                    <ImageView
-                        android:id="@+id/imv_change_langguge"
-                        android:layout_width="wrap_content"
+                        <TextView
+                            style="@style/tv_rubik_12_400_blue_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="29dp"
+                            android:text="English" />
+
+                        <ImageView
+                            android:id="@+id/imv_change_langguge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="17dp"
+                            android:src="@drawable/right_arrow_black" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginHorizontal="23dp"
+                        android:background="#F1F6FF" />
+
+                    <LinearLayout
+                        android:id="@+id/lnl_notification"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="17dp"
-                        android:src="@drawable/right_arrow_black" />
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="30dp"
+                        android:paddingVertical="5dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/notification_icon" />
+
+                        <TextView
+                            style="@style/tv_rubik_14_400_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:text="@string/Notification" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/switch_notification"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:thumb="@drawable/thumb"
+                            app:track="@drawable/track" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginHorizontal="23dp"
+                        android:background="#F1F6FF" />
+
+                    <LinearLayout
+                        android:id="@+id/lnl_temp_units"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="30dp"
+                        android:paddingVertical="5dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/temperature_units_icon" />
+
+                        <TextView
+                            style="@style/tv_rubik_14_400_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:text="@string/Temperature_Units" />
+
+                        <androidx.appcompat.widget.AppCompatToggleButton
+                            android:layout_width="78dp"
+                            android:layout_height="26dp"
+                            android:background="@drawable/bg_toggle_btn"
+                            android:checked="false"
+                            android:layout_marginVertical="14dp"
+                            android:textOff=""
+                            android:textOn="" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginHorizontal="23dp"
+                        android:background="#F1F6FF" />
+
+                    <LinearLayout
+                        android:id="@+id/lnl_wiget"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="30dp"
+                        android:paddingVertical="5dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/widget_icon" />
+
+                        <TextView
+                            style="@style/tv_rubik_14_400_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:text="@string/Widgets" />
+
+                        <ImageView
+                            android:id="@+id/imv_widget"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="17dp"
+                            android:src="@drawable/right_arrow_black" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginHorizontal="23dp"
-                    android:background="#F1F6FF" />
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/tv_rubik_16_600_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/Generals"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
                 <LinearLayout
-                    android:id="@+id/lnl_notification"
+                    android:id="@+id/linearLayout5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="30dp"
-                    android:paddingVertical="5dp">
+                    android:layout_marginTop="21dp"
+                    android:background="@drawable/bg_white_rd_10"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5">
 
-                    <ImageView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/lnl_about_us"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/notification_icon" />
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="30dp">
 
-                    <TextView
-                        style="@style/tv_rubik_14_400_black"
-                        android:layout_width="0dp"
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/about_us_icon" />
+
+                        <TextView
+                            style="@style/tv_rubik_14_400_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:text="@string/About_us" />
+
+
+                        <ImageView
+                            android:id="@+id/imv_about_us"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="17dp"
+                            android:src="@drawable/right_arrow_black" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginHorizontal="23dp"
+                        android:background="#F1F6FF" />
+
+                    <LinearLayout
+                        android:id="@+id/lnl_rate"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:text="@string/Notification" />
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="30dp"
+                        android:paddingVertical="5dp">
 
-                    <androidx.appcompat.widget.SwitchCompat
-                        android:id="@+id/switch_notification"
-                        android:layout_width="wrap_content"
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/rate_icon" />
+
+                        <TextView
+                            style="@style/tv_rubik_14_400_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:text="@string/rate" />
+
+                        <ImageView
+                            android:id="@+id/imv_rate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="17dp"
+                            android:src="@drawable/right_arrow_black" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginHorizontal="23dp"
+                        android:background="#F1F6FF" />
+
+                    <LinearLayout
+                        android:id="@+id/lnl_shared"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:checked="true"
-                        android:thumb="@drawable/thumb"
-                        app:track="@drawable/track"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="30dp"
+                        android:paddingVertical="5dp">
 
-                        />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/shared_icon" />
+
+                        <TextView
+                            style="@style/tv_rubik_14_400_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:text="@string/shared" />
+
+
+                        <ImageView
+                            android:id="@+id/imv_shared"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="17dp"
+                            android:src="@drawable/right_arrow_black" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginHorizontal="23dp"
+                        android:background="#F1F6FF" />
+
+                    <LinearLayout
+                        android:id="@+id/lnl_privacy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="30dp"
+                        android:paddingVertical="5dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/privacy_icon" />
+
+                        <TextView
+                            style="@style/tv_rubik_14_400_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_weight="1"
+                            android:text="@string/Privacy_Policy" />
+
+                        <ImageView
+                            android:id="@+id/imv_privacy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="17dp"
+                            android:src="@drawable/right_arrow_black" />
+                    </LinearLayout>
                 </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginHorizontal="23dp"
-                    android:background="#F1F6FF" />
-
-                <LinearLayout
-                    android:id="@+id/lnl_temp_units"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="30dp"
-                    android:paddingVertical="5dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/temperature_units_icon" />
-
-                    <TextView
-                        style="@style/tv_rubik_14_400_black"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:text="@string/Temperature_Units" />
-
-                    <androidx.appcompat.widget.SwitchCompat
-                        android:id="@+id/switch_temp_change"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:checked="true"
-                        android:thumb="@drawable/thumb"
-                        app:track="@drawable/track" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginHorizontal="23dp"
-                    android:background="#F1F6FF" />
-
-                <LinearLayout
-                    android:id="@+id/lnl_wiget"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="30dp"
-                    android:paddingVertical="5dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/widget_icon" />
-
-                    <TextView
-                        style="@style/tv_rubik_14_400_black"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:text="@string/Widgets" />
-
-                    <ImageView
-                        android:id="@+id/imv_widget"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="17dp"
-                        android:src="@drawable/right_arrow_black" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView5"
-                style="@style/tv_rubik_16_600_black"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="23dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/Generals"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
-
-            <LinearLayout
-                android:id="@+id/linearLayout5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="21dp"
-                android:background="@drawable/bg_white_rd_10"
-                android:orientation="vertical"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5">
-
-                <LinearLayout
-                    android:id="@+id/lnl_about_us"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="30dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/about_us_icon" />
-
-                    <TextView
-                        style="@style/tv_rubik_14_400_black"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:text="@string/About_us" />
-
-
-                    <ImageView
-                        android:id="@+id/imv_about_us"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="17dp"
-                        android:src="@drawable/right_arrow_black" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginHorizontal="23dp"
-                    android:background="#F1F6FF" />
-
-                <LinearLayout
-                    android:id="@+id/lnl_rate"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="30dp"
-                    android:paddingVertical="5dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/rate_icon" />
-
-                    <TextView
-                        style="@style/tv_rubik_14_400_black"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:text="@string/rate" />
-
-                    <ImageView
-                        android:id="@+id/imv_rate"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="17dp"
-                        android:src="@drawable/right_arrow_black" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginHorizontal="23dp"
-                    android:background="#F1F6FF" />
-
-                <LinearLayout
-                    android:id="@+id/lnl_shared"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="30dp"
-                    android:paddingVertical="5dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/shared_icon" />
-
-                    <TextView
-                        style="@style/tv_rubik_14_400_black"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:text="@string/shared" />
-
-
-                    <ImageView
-                        android:id="@+id/imv_shared"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="17dp"
-                        android:src="@drawable/right_arrow_black" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginHorizontal="23dp"
-                    android:background="#F1F6FF" />
-
-                <LinearLayout
-                    android:id="@+id/lnl_privacy"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="30dp"
-                    android:paddingVertical="5dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/privacy_icon" />
-
-                    <TextView
-                        style="@style/tv_rubik_14_400_black"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:text="@string/Privacy_Policy" />
-
-                    <ImageView
-                        android:id="@+id/imv_privacy"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="17dp"
-                        android:src="@drawable/right_arrow_black" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.core.widget.NestedScrollView>
-
-
-</LinearLayout>
+    <vn.ilightning.myapplication.view.WidgetSettingView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/ctv_widget_setting_view"
+        />
+</RelativeLayout>
